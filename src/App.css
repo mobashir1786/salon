@@ -1,0 +1,141 @@
+.App{
+  text-align: center;
+}
+ /* top bar for logo and name  */
+.topbar{
+  box-sizing: border-box;
+  width: 100vw;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: rgb(15, 14, 14);
+}
+.topbar>img{
+  width: 75px;
+  height: 75px;
+  border: 2px solid tomato;
+  border-radius: 50%;
+  margin-left: 150px;
+  cursor: pointer;
+}
+.topbar>div{
+  font-size: 40px;
+  color: tomato;
+  margin-left: 50px;
+  font-family: "Sofia";
+  cursor: pointer;
+}
+
+/* navbar for routing */
+.navbar{
+  box-sizing: border-box;
+  width: 100vw;
+  height: 75px;
+  background-color: rgb(15, 14, 14);
+}
+ul{
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+li{
+  padding: 0px 50px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+a{
+  text-decoration: none;
+  color: tomato;
+}
+a:hover{
+  color: red;
+  box-shadow: 5px 5px 5px tomato;
+}
+
+/* contact route  */
+.cont{
+  margin-top: 50px;
+}
+.contact{
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw;
+}
+.contactLeft{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 5vh 5vw;
+  background-color: #FFFFFF;
+}
+.contactRight{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 5vh 5vw;
+  background-color: #FBF3E4;
+}
+.btn{
+  cursor: pointer;
+}
+
+/* card for all services  */
+.card{
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding-top: 20px;
+  border: 2px solid tomato;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px tomato;
+}
+.servises{
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+/* why chose beauty salon  */
+
+.about{
+  margin: 50px 0px;
+}
+.aboutcard{
+  margin: 10px;
+  text-align: center;
+}
+.card1{
+  border: 2px solid tomato;
+  margin: 50px 300px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+/* homepage  */
+.homepage{
+  width: 100vw;
+  height: 600px;
+  margin-bottom: 10px;
+}
+.homepage>img{
+  width: 100vw;
+  height: 600px;
+}
+.homeimg{
+  display: flex;
+  justify-content: center;
+  
+  margin-bottom: 50px;
+}
+.homeimg>img{
+  width: 30vw;
+  height: 25vw;
+  padding: 10px;
+}
