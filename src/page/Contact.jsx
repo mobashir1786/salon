@@ -14,7 +14,7 @@ export default function Contact() {
         console.log(name, number, email, message);
     }
     return (
-        <div className='cont'><span style={{ color: "#105652", font: "normal normal bold 35px/44px Inter", opacity: "1", margin: "10px", borderBottom: "5px solid #FCA738" }}>Contact Me</span><br />
+        <div className='cont'><span style={{ color: "#105652", font: "normal normal bold 35px/44px Inter", opacity: "1", margin: "10px", borderBottom: "5px solid #FCA738" }}>Contact</span><br />
             <div className="contact">
                 <div className="contactLeft">
                     <h3 style={{ fontSize: "20px", color: "#105652" }}>Let's Connect</h3>
