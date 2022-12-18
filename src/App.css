@@ -1,8 +1,9 @@
-.App{
+.App {
   text-align: center;
 }
- /* top bar for logo and name  */
-.topbar{
+
+/* top bar for logo and name  */
+.topbar {
   box-sizing: border-box;
   width: 100vw;
   height: 75px;
@@ -11,7 +12,8 @@
   padding: 5px;
   background-color: rgb(15, 14, 14);
 }
-.topbar>img{
+
+.topbar>img {
   width: 75px;
   height: 75px;
   border: 2px solid tomato;
@@ -19,7 +21,8 @@
   margin-left: 150px;
   cursor: pointer;
 }
-.topbar>div{
+
+.topbar>div {
   font-size: 40px;
   color: tomato;
   margin-left: 50px;
@@ -28,43 +31,49 @@
 }
 
 /* navbar for routing */
-.navbar{
+.navbar {
   box-sizing: border-box;
   width: 100vw;
   height: 75px;
   background-color: rgb(15, 14, 14);
 }
-ul{
+
+ul {
   margin: 0;
   list-style-type: none;
   display: flex;
   justify-content: center;
   text-align: center;
 }
-li{
+
+li {
   padding: 0px 50px;
   font-size: 25px;
   margin-top: 10px;
 }
-a{
+
+a {
   text-decoration: none;
   color: tomato;
 }
-a:hover{
+
+a:hover {
   color: red;
   box-shadow: 5px 5px 5px tomato;
 }
 
 /* contact route  */
-.cont{
+.cont {
   margin-top: 50px;
 }
-.contact{
+
+.contact {
   display: flex;
   justify-content: space-between;
   padding: 5vw;
 }
-.contactLeft{
+
+.contactLeft {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -72,7 +81,8 @@ a:hover{
   padding: 5vh 5vw;
   background-color: #FFFFFF;
 }
-.contactRight{
+
+.contactRight {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -80,12 +90,13 @@ a:hover{
   padding: 5vh 5vw;
   background-color: #FBF3E4;
 }
-.btn{
+
+.btn {
   cursor: pointer;
 }
 
 /* card for all services  */
-.card{
+.card {
   width: 300px;
   height: 300px;
   margin: 10px;
@@ -94,7 +105,8 @@ a:hover{
   border-radius: 20px;
   box-shadow: 5px 5px 5px tomato;
 }
-.servises{
+
+.servises {
   width: 95vw;
   display: flex;
   flex-wrap: wrap;
@@ -104,14 +116,16 @@ a:hover{
 
 /* why chose beauty salon  */
 
-.about{
+.about {
   margin: 50px 0px;
 }
-.aboutcard{
+
+.aboutcard {
   margin: 10px;
   text-align: center;
 }
-.card1{
+
+.card1 {
   border: 2px solid tomato;
   margin: 50px 300px;
   border-radius: 30px;
@@ -119,23 +133,101 @@ a:hover{
 }
 
 /* homepage  */
-.homepage{
+.homepage {
   width: 100vw;
   height: 600px;
   margin-bottom: 10px;
 }
-.homepage>img{
+
+.homepage>img {
   width: 100vw;
   height: 600px;
 }
-.homeimg{
+
+.homeimg {
   display: flex;
   justify-content: center;
-  
+
   margin-bottom: 50px;
 }
-.homeimg>img{
+
+.homeimg>img {
   width: 30vw;
   height: 25vw;
   padding: 10px;
+}
+
+@media(max-width:600px) {
+  .topbar>img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+  }
+
+  .topbar>div {
+    font-size: 32px;
+    margin-left: 10px;
+  }
+
+  /* navbar for routing */
+  ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  li {
+    padding: 0px 7px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  /* contact route  */
+  .cont {
+    margin-top: 50px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+  }
+
+  .contactLeft {
+    width: 90%;
+  }
+
+  .contactRight {
+    width: 90%;
+  }
+
+  /* why chose beauty salon  */
+  .aboutcard {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .card1 {
+    margin: 10px 10px;
+  }
+
+  /* homepage  */
+  .homepage {
+    width: 100vw;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+
+  .homepage>img {
+    width: 100vw;
+    height: 300px;
+  }
+
+  .homeimg>img {
+    width: 25vw;
+    height: 25vw;
+    padding: 10px;
+  }
 }

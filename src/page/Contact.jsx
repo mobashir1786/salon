@@ -27,13 +27,13 @@ export default function Contact() {
                     <h3 className="send">Send me a message</h3>
                     <form onSubmit={handleSubmit}>
                         <label >Name</label><br />
-                        <input type="text" style={{ width: "20vw", borderRadius: "5px", height: "24px", backgroundColor: "#FFFFFF" }} /><br />
+                        <input type="text" style={{ width: "280px", borderRadius: "5px", height: "24px", backgroundColor: "#FFFFFF" }} /><br />
                         <label tyle={{ marginTop: "10px" }}>Phone Number</label><br />
-                        <input type="number" style={{ width: "20vw", borderRadius: "5px", height: "24px", backgroundColor: "#FFFFFF" }} /><br />
+                        <input type="number" style={{ width: "280px", borderRadius: "5px", height: "24px", backgroundColor: "#FFFFFF" }} /><br />
                         <label tyle={{ marginTop: "10px" }}>Email address</label><br />
-                        <input type="email" style={{ width: "20vw", borderRadius: "5px", height: "24px", backgroundColor: "#FFFFFF" }} /><br />
+                        <input type="email" style={{ width: "280px", borderRadius: "5px", height: "24px", backgroundColor: "#FFFFFF" }} /><br />
                         <label tyle={{ marginTop: "10px" }}>Message</label><br />
-                        <textarea className="textarea" placeholder='Enter your message' style={{ width: "20vw", borderRadius: "5px", height: "72px", backgroundColor: "#FFFFFF", border: "2px solid black" }} /><br />
+                        <textarea className="textarea" placeholder='Enter your message' style={{ width: "280px", borderRadius: "5px", height: "72px", backgroundColor: "#FFFFFF", border: "2px solid black" }} /><br />
                         <button className="btn btn-warning click" style={{ backgroundColor: "#FCA738", padding: "10px", marginTop: "10px", borderRadius: "10px" }} type="submit" >Send Message</button>
                     </form>
                 </div>
